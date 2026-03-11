@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>A-Frame Examples Collection</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+      background: #f5f5f5;
+    }
+    h1 {
+      color: #e23b73;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .category {
+      background: white;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .category h2 {
+      color: #333;
+      margin-top: 0;
+      border-bottom: 2px solid #e23b73;
+      padding-bottom: 0.5rem;
+    }
+    .examples-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .example-card {
+      border: 1px solid #eee;
+      border-radius: 6px;
+      padding: 1rem;
+      transition: all 0.2s;
+    }
+    .example-card:hover {
+      border-color: #e23b73;
+      box-shadow: 0 4px 12px rgba(226, 59, 115, 0.15);
+      transform: translateY(-2px);
+    }
+    .example-card a {
+      color: #e23b73;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .example-card p {
+      color: #666;
+      font-size: 0.9rem;
+      margin: 0.5rem 0 0 0;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .header p {
+      font-size: 1.1rem;
+      color: #666;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🎮 A-Frame Examples Collection</h1>
+    <p>A curated collection of A-Frame examples for learning and experimentation. All examples are optimized to run in standard web browsers without requiring special VR/AR hardware.</p>
+  </div>
+
+  <div class="category">
+    <h2>🚀 Boilerplate (入门示例)</h2>
+    <div class="examples-grid">
+      <div class="example-card">
+        <a href="boilerplate/hello-world/index.html">Hello World</a>
+        <p>Basic A-Frame scene with a box, sphere, and cylinder</p>
+      </div>
+      <div class="example-card">
+        <a href="boilerplate/360-image/index.html">360° Image</a>
+        <p>Panoramic 360 degree image viewer</p>
+      </div>
+      <div class="example-card">
+        <a href="boilerplate/360-video/index.html">360° Video</a>
+        <p>360 degree video player</p>
+      </div>
+      <div class="example-card">
+        <a href="boilerplate/embedded/index.html">Embedded</a>
+        <p>Embedded A-Frame scene in a regular web page</p>
+      </div>
+      <div class="example-card">
+        <a href="boilerplate/arm-model/index.html">Arm Model</a>
+        <p>VR controller arm model demonstration</p>
+      </div>
+      <div class="example-card">
+        <a href="boilerplate/model/index.html">3D Model</a>
+        <p>Loading and displaying 3D models</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>🔷 Primitives (基础图元)</h2>
+    <div class="examples-grid">
+      <div class="example-card">
+        <a href="primitives/box/index.html">Box</a>
+        <p>Box primitive properties and customization</p>
+      </div>
+      <div class="example-card">
+        <a href="primitives/sphere/index.html">Sphere</a>
+        <p>Sphere primitive with materials and textures</p>
+      </div>
+      <div class="example-card">
+        <a href="primitives/cylinder/index.html">Cylinder</a>
+        <p>Cylinder primitive variations</p>
+      </div>
+      <div class="example-card">
+        <a href="primitives/plane/index.html">Plane</a>
+        <p>Plane primitive for surfaces and floors</p>
+      </div>
+      <div class="example-card">
+        <a href="primitives/cone/index.html">Cone</a>
+        <p>Cone primitive demonstration</p>
+      </div>
+      <div class="example-card">
+        <a href="primitives/torus/index.html">Torus</a>
+        <p>Torus (donut) shape primitive</p>
+      </div>
+      <div class="example-card">
+        <a href="primitives/light/index.html">Light</a>
+        <p>Lighting and shadow examples</p>
+      </div>
+      <div class="example-card">
+        <a href="primitives/sky/index.html">Sky</a>
+        <p>Sky primitive for backgrounds</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>✨ Animation (动画效果)</h2>
+    <div class="examples-grid">
+      <div class="example-card">
+        <a href="animation/basic/index.html">Basic Animation</a>
+        <p>Simple position, rotation, and scale animations</p>
+      </div>
+      <div class="example-card">
+        <a href="animation/chain/index.html">Animation Chain</a>
+        <p>Chained sequential animations</p>
+      </div>
+      <div class="example-card">
+        <a href="animation/event/index.html">Event-based Animation</a>
+        <p>Animations triggered by events</p>
+      </div>
+      <div class="example-card">
+        <a href="animation/loop/index.html">Loop Animation</a>
+        <p>Looping and repeating animations</p>
+      </div>
+      <div class="example-card">
+        <a href="animation/keyframes/index.html">Keyframes</a>
+        <p>Complex multi-keyframe animations</p>
+      </div>
+      <div class="example-card">
+        <a href="animation/bezier/index.html">Bezier Curve</a>
+        <p>Animation along bezier curves</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>🏆 Showcase (高级展示)</h2>
+    <div class="examples-grid">
+      <div class="example-card">
+        <a href="showcase/anime-UI/index.html">Anime UI</a>
+        <p>Animated user interface elements</p>
+      </div>
+      <div class="example-card">
+        <a href="showcase/comicbook/index.html">Comic Book</a>
+        <p>Interactive comic book experience</p>
+      </div>
+      <div class="example-card">
+        <a href="showcase/composite/index.html">Composite</a>
+        <p>Advanced rendering composites</p>
+      </div>
+      <div class="example-card">
+        <a href="showcase/curved-mockups/index.html">Curved Mockups</a>
+        <p>Curved screen mockup examples</p>
+      </div>
+      <div class="example-card">
+        <a href="showcase/dynamic-lights/index.html">Dynamic Lights</a>
+        <p>Dynamic lighting effects</p>
+      </div>
+      <div class="example-card">
+        <a href="showcase/model-viewer/index.html">Model Viewer</a>
+        <p>Interactive 3D model viewer</p>
+      </div>
+      <div class="example-card">
+        <a href="showcase/painter/index.html">3D Painter</a>
+        <p>VR painting application</p>
+      </div>
+      <div class="example-card">
+        <a href="showcase/post-processing/index.html">Post Processing</a>
+        <p>Post-processing visual effects</p>
+      </div>
+      <div class="example-card">
+        <a href="showcase/shopping/index.html">Shopping Experience</a>
+        <p>Interactive e-commerce demo</p>
+      </div>
+      <div class="example-card">
+        <a href="showcase/spatial-ui/index.html">Spatial UI</a>
+        <p>3D spatial user interfaces</p>
+      </div>
+      <div class="example-card">
+        <a href="showcase/spheres-and-fog/index.html">Spheres & Fog</a>
+        <p>Atmospheric fog and particle effects</p>
+      </div>
+      <div class="example-card">
+        <a href="showcase/webgpu/index.html">WebGPU</a>
+        <p>WebGPU rendering examples</p>
+      </div>
+      <div class="example-card">
+        <a href="showcase/wikipedia/index.html">Wikipedia VR</a>
+        <p>Wikipedia VR experience demo</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>⚡ Performance (性能测试)</h2>
+    <div class="examples-grid">
+      <div class="example-card">
+        <a href="performance/cubes/index.html">Cubes Benchmark</a>
+        <p>Performance test with thousands of cubes</p>
+      </div>
+      <div class="example-card">
+        <a href="performance/entity-count/index.html">Entity Count</a>
+        <p>Entity count performance test</p>
+      </div>
+      <div class="example-card">
+        <a href="performance/set-attribute/index.html">setAttribute Test</a>
+        <p>setAttribute performance benchmark</p>
+      </div>
+      <div class="example-card">
+        <a href="performance/animation-raw/index.html">Raw Animation</a>
+        <p>Low-level animation performance test</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
